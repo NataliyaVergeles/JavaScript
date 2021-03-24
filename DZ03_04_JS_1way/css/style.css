@@ -1,0 +1,9 @@
+.container{
+    width: 600px;
+    display: flex;
+    padding: 30px;
+    font-size: 16px;
+    justify-content: space-between;
+    border: solid 1px gray;
+}
+ 
