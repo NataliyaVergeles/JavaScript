@@ -1,0 +1,26 @@
+body {
+	background: rgb(233, 238, 233);
+	margin: 20px;
+	padding: 20px;
+}
+
+img{
+	width: 200px;
+	}
+.container{
+	display: flex;
+}
+.other {
+	border-left: 10px solid gray;
+	margin: 20px;
+	padding: 20px;
+}
+.other p{
+	margin-bottom: 5px;
+}
+
+.other1 {
+	margin: 20px;
+	padding: 20px;
+	border-left: 10px solid black;
+}
