@@ -1,0 +1,20 @@
+//let numParEl  = prompt('Введите номер блока от 1 до 5'); 
+//let tag = prompt('Введите имя тега');
+
+//parrentEl = 'block' + numParEl;
+//let defData = 'data' + numParEl;
+//let defTag = tag;
+//let defBlock = 'block' + numParEl;
+//function renderData(parrentEl, defBlock, defData, defTag ) {
+  //  parrentEl = 'block' + numParEl;
+  //  defBlock = 'block' + numParEl;
+    //defData = 'data' + numParEl;
+  //  defTag = tag;
+    //defBlock = '<defBlock>';
+   //     for(let j = 0; j < defData.length; j++) {
+  //          
+  //          defBlock += '<defTag>' + defData(j) + '</defTag>'
+  //      }
+  //  defBlock += '</defBlock>';
+  //  parrentEl.innerHTML = defBlock;
+//}

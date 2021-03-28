@@ -1,0 +1,27 @@
+.block1{
+    text-align: center;
+    font-size: 50px;
+    color: brown;
+}
+.block2{
+    display: flex;
+    padding: 20px;
+    font-size: 30px;
+    color: rgb(128, 55, 28);
+    justify-content: space-between;
+    background: rgb(216, 183, 160);
+}
+.block3{
+    display: flex;
+    font-size: 25px;
+    padding: 30px;
+    justify-content: space-between;
+    color: darkblue;
+}
+.block4{
+    background: lightblue;
+}
+.block5{
+    background: lightpink;
+}
+
