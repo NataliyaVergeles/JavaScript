@@ -1,5 +1,6 @@
 let doc = document;
 let box = doc.querySelector('.box');
+console.log (box);
 let bxx='';
 let squareBase = [
     {
@@ -33,16 +34,16 @@ for (let i = 0; i < squareBase.length; i++){
     
    for(let key in squareBase[i].styles){
        console.log (key, squareBase[i].styles[key])
-       boxStyle += `${key}:${squareBase[i].styles[key]}; `
+       boxStyle += `${key}:${squareBase[i].styles[key]};`
        console.log(boxStyle);
    } 
 bxx = boxStructStart + 'style="' + boxStyle + boxStructFin;
 console.log(bxx);
-
-}
 box.innerHTML += bxx; 
-console.log(box.innerHTML);
+console.log(box);
           
+}
+
     
     
     
