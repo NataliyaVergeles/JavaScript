@@ -4,17 +4,18 @@ console.log (box);
 let bxx='';
 let squareBase = [
     {
+        
         structure: {
             tag: 'div', 
-            class: 'square-item',
+            class: 'square-item1',
             id: 'squarel'
         },
         styles: {
-            height: '100px', 
-            width: '100px', 
-            background: 'green', 
-            margin: '20px', 
-            border: '5px solid olivedrab'
+            height: '200px', 
+            width: '200px', 
+            background: 'blue', 
+            margin: '50px', 
+            border: '10px solid yellow'
         }
     }
 ];
@@ -37,13 +38,13 @@ for (let i = 0; i < squareBase.length; i++){
        boxStyle += `${key}:${squareBase[i].styles[key]};`
        console.log(boxStyle);
    } 
-bxx = boxStructStart + 'style="' + boxStyle + boxStructFin;
+bxx += boxStructStart + 'style="' + boxStyle + '"' + boxStructFin;
 console.log(bxx);
-box.innerHTML += bxx; 
+//box.innerHTML += bxx; 
 console.log(box);
           
 }
-
+box.innerHTML += bxx; 
     
     
     
