@@ -3,7 +3,7 @@ let menuActive = doc.querySelector('.menu');
 let btnToggle = doc.querySelector('.toggle-menu');
 let formCallback = doc.querySelector('.callback');
 let btnOpenCallback = doc.querySelector('.open-callback');
-let btnCloseCallback = doc.querySelector('.close-callback');
+//let btnCloseCallback = doc.querySelector('.close-callback');
 let isMenu = false;
 let isOpenCallback = false;
 let isCloseCallback = false;
@@ -28,13 +28,13 @@ btnOpenCallback.onclick = function(){
         console.log('Включаем CAllback');
         isOpenCallback = true;
         isCloseCallback = false;
-        formCallback.innerHTML =`
+        formCallback.innerHTML +=`
         <div class="form-wrap">
             <label>
-                <input type="text" name="name" required placeholder="Имя ">
+                <input type="text" name="name" placeholder="Имя ">
             </label>
             <label>
-                <input type="text" name="phone" required placeholder="Телефон">
+                <input type="text" name="phone" placeholder="Телефон">
             </label>
             <button class="close-callback" input type="submit">ОК</button>
 
