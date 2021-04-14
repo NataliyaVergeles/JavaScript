@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+li {
+  list-style-type: none;
+}
+.container {
+  width: 300px;
+  margin: 50px auto;
+}
+
+.list {
+  color: blueviolet;
+  background: rgb(243, 231, 233);
+}
+.list__item {
+  margin-bottom: 2px;
+}
+.title {
+  padding: 10px;
+  border: 1px solid silver;
+}
+.content {
+  display: none;
+  padding: 10px;
+  border: 1px solid silver;
+}
+.content_active {
+  display: block;
+}
