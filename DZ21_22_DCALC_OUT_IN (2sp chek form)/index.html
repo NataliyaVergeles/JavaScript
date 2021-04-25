@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html Lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HTML/CSS</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="container">
+		
+		<form action="#" name="main">
+			<div class="form-wrap">
+				<fieldset name ="datas">
+					<h4>Первоначальный депозит</h4>
+					<label>
+						<input type="number" 
+							name="sum_deposit" 
+						>
+					</label>
+					<h4>Срок вклада</h4>
+					<select name="srok_deposit" >
+						<option value="1">12 мес(1год)</option>
+						<option value="2">24 мес(2года)</option>
+						<option value="3">36 мес (3 года)</option>
+					</select>
+					<label>
+						<h4>Годовая процентня ставка</h4>
+						<input 
+							type="number" 
+							name="proc_deposit"
+						>
+					</label>
+				</fieldset>
+				<h4>Рассчитать</h4>
+				<button class="submit">ok</button>
+			</div>
+			<div class="box_alarm">
+				<span>НЕОБХОДИМО ЗАПОЛНИТЬ ВСЕ ПОЛЯ</span>
+			</div>
+			<div class="vigoda">
+				<div class="vigoda_before">	</div>
+				<div class="vigoda_after">	</div>
+			</div>
+			<div class="box">
+				<div class="box_before"></div>
+				<div class="box_after"></div>
+			</div>
+		</form>
+			
+	</div>
+	<script src="./js/main.js"></script>
+</body>
+</html>
