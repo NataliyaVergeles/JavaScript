@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html Lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>АНКЕТА-ОПРОСНИК Frontend-разработчик (Junior)</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="container">
+		<h2>АНКЕТА-ОПРОСНИК </h2>
+		<h2> Frontend-разработчик (Junior)</h2>
+		<form action="#" name="main">
+			<div class="form">
+				<label>
+					<span>Введите Ваше имя:</span>
+					<input type="text" name="name">
+				</label>
+				<label>
+					<span>Введите Вашу фамилию:</span>
+					<input type="text" name="family" disabled>
+				</label>
+				<span>Выберите интересующий тип занятости:</span>
+				<select name="workday"disabled >
+					<option value="0"></option>
+					<option value="1">Полная занятость</option>
+					<option value="2">Частичная занятость</option>
+				</select>
+			</div>
+			<span>Ваши навыки</span>
+			<div class="form-check" >
+				
+				<label>
+					<span>HTML</span>
+					<input type="checkbox" class ="chbox"name="chk1" disabled>
+				</label>
+				<label>
+					<span>CSS</span>
+					<input type="checkbox" class ="chbox"name="chk2" disabled>
+				</label>
+				<label>
+					<span>JS</span>
+					<input type="checkbox"class ="chbox" name="chk3" disabled>
+				</label>
+				<label>
+					<span>PHP</span>
+					<input type="checkbox" class ="chbox"name="chk4" disabled>
+				</label>
+			</div>
+
+			<button class="submit"disabled>ok</button>
+		</form>
+		
+	</div>
+	<script src="./js/main.js"></script>
+</body>
+</html>

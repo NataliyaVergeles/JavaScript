@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+  }
+li {
+  list-style-type: none;
+}
+.container {
+  width: 600px;
+  margin: 50px auto;
+}
+label{
+  padding-top: 10px;
+  padding-right: 20px;
+}
+.form{
+  display: flex;
+   flex-direction: column;
+   margin-top: 20px;
+}
+.form-check{
+  border:none;
+	display:flex;
+	margin-bottom: 20px;
+}
+button{
+  width: 80px;
+  height: 40px;
+}
+.alert {
+  border: 1px solid red;
+  background: red;
+}
