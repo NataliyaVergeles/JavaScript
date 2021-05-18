@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 0;
+    font-size: 24px;
+  }
+li {
+  list-style-type: none;
+}
+.container {
+  width: 600px;
+  margin: 50px auto;
+}
+label{
+  padding-top: 10px;
+  padding-right: 20px;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+   margin-top: 20px;
+}
+.choiceFilter{
+  display: flex;
+  margin: 10px;
+}
