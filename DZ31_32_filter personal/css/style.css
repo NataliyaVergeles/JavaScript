@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+li {
+  list-style-type: none;
+}
+
+.container{
+	width:800px;
+	background:LightSkyBlue;
+	margin:50px auto;
+}
+
+.personal{
+	display:flex;
+	flex-wrap:wrap;
+}
+.persona{
+	width:calc((100% - 5px * 2 * 3) / 3);
+	height: 350px;
+	
+	
+	margin:5px;
+  }
+.persona__photo {	
+  height:100px;
+}
+h2 {
+	text-align:center;
+}
+
+.persona__descr {
+	font-weight:200;
+	padding:5px;
+  	padding-top: 200px;
+}
+.selectNames{
+	padding-top: 10px;
+	padding-right: 20px;
+	background: lightgreen;
+  }
+form{
+	display: flex;
+	height: 50px;
+	background: lightgreen;
+	justify-content: center;
+	margin-top: 20px;
+}
