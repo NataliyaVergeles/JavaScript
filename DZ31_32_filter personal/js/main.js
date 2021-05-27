@@ -5,12 +5,12 @@ let filtPersons =[];
 
 
 let persons = [
-    {name: 'Tanya', age: 28, city: 'Poltava', photo: 'foto1.jpg'},
-    {name: 'Mariya', age: 32, city: 'Poltava', photo: 'foto2.jpg'},
-    {name: 'Dima', age: 36, city: 'Kharkov', photo: 'foto3.jpg'},
-    {name: 'Tanya', age: 30, city: 'Poltava', photo: 'foto4.jpg'},
-    {name: 'Dima', age: 36, city: 'Kiev', photo: 'foto5.jpg'},
-    {name: 'Nadya', age: 36, city: 'Kiev', photo: 'foto6.jpg'},
+    {name: 'Tanya', age: 28, city: 'Poltava', photo: 'foto1'},
+    {name: 'Mariya', age: 32, city: 'Poltava', photo: 'foto2'},
+    {name: 'Dima', age: 36, city: 'Kharkov', photo: 'foto3'},
+    {name: 'Tanya', age: 30, city: 'Poltava', photo: 'foto4'},
+    {name: 'Dima', age: 36, city: 'Kiev', photo: 'foto5'},
+    {name: 'Nadya', age: 36, city: 'Kiev', photo: 'foto6'},
 ];
 
 //Выводим полный массив на экран
@@ -69,7 +69,9 @@ function screenShtat (arr){
             `
             <div class="persona">
             <div class="persona__photo">
-                <img src="/img/${arr[i].photo}" alt="">
+                <img src="img/${arr[i].photo}.jpg" alt="">
+				
+				
             </div>
             <div class="persona__descr">
                 <h4> Имя, возраст, город:</h4>
